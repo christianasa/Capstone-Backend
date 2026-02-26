@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Routes
 const authRoutes = require('./routes/Auth');
-const runsRoutes = require('./routes/Runs');
+const runsRoutes = require('./routes/Run');
 
 app.use('/auth', authRoutes);
 app.use('/runs', runsRoutes);
