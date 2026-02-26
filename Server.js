@@ -9,8 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-const authRoutes = require('./routes/auth');
-const runsRoutes = require('./routes/runs');
+const authRoutes = require('./routes/Auth');
+const runsRoutes = require('./routes/Runs');
 
 app.use('/auth', authRoutes);
 app.use('/runs', runsRoutes);
