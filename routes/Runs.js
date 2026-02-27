@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const axios = require('axios');
+const Run = require('../models/Run');
 
 // GET /runs — fetch all runs from Strava
 router.get('/', async (req, res) => {
