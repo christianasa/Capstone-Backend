@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const RunSchema = new mongoose.Schema({
-  userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   stravaId: { type: String },
   name: { type: String },
   date: { type: Date, required: true },
