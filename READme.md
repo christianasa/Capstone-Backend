@@ -1,4 +1,4 @@
-# RunTrack Backend 🏃
+# RunTrack Backend 🏃🏾‍♀️
 
 Node.js + Express REST API for the RunTrack half marathon training app, connected to MongoDB.
 
